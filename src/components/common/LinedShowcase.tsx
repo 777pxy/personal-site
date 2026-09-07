@@ -1,3 +1,4 @@
+import { BigText } from "./BigText";
 import {
   LinedShowcaseHeader,
   LinedShowcaseHeaderData,
@@ -26,6 +27,26 @@ export function LinedShowcase({
           />
         );
       })}
+      <div className={`flex flex-col mb-15 `}>
+        <div className="flex items-center gap-4 mb-4">
+          <BigText text={"the future awaits..."} />
+          <div className="flex-1 border-t border-white" />
+        </div>
+        <div className="flex flex-row relative gap-2">
+          {" "}
+          <div className="flex flex-3 flex-row">
+            <div className="flex-col  mr-4 pr-4">
+              <div className="font-light">
+                {"I'm currently working on a photographers portfolio site."}
+              </div>
+              <div className="font-light">
+                What <span className="underline">steaks</span> are at risk
+                ahhaha :laugh:
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
