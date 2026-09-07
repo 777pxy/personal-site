@@ -13,7 +13,7 @@ import monk from "@/assets/monk.png";
 const sections: LinedShowcaseHeaderData[] = [
   {
     title: "KJDetailz",
-    tags: ["Next.js", "Claude Code", "Vercel", "Github Actions"],
+    tags: ["Next.js", "Sanity-CMS", "Claude-Code", "Vercel", "Github-Actions"],
     image: kjdetailz,
     description: (
       <div>
